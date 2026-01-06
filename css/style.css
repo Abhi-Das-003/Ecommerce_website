@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+}
+
+header {
+    background: #1e40af;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #fde68a;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 60px;
+    text-align: center;
+    background: #bfdbfe;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+.product {
+    background: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+button {
+    padding: 8px;
+    background: #1e40af;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+button:hover {
+    background: #2563eb;
+}
+
+#cartItems {
+    padding: 30px;
+}/* =====================
+   Dark Mode Styles
+   ===================== */
+
+.dark-mode {
+    background-color: #0f172a;
+    color: #ffffff;
+}
+
+.dark-mode header {
+    background-color: #020617;
+}
+
+.dark-mode nav a {
+    color: #facc15;
+}
+
+.dark-mode .hero {
+    background-color: #1e293b;
+}
+
+.dark-mode .product,
+.dark-mode #cartItems {
+    background-color: #1e293b;
+    color: white;
+}
+
+.dark-mode button {
+    background-color: #334155;
+    color: white;
+}
+
+.dark-mode button:hover {
+    background-color: #475569;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products | ShopEase</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Our Products</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart</a>
+    </nav>
+</header>
+
+<section class="products">
+    <div class="product">
+        <img src="images/product1.jpeg">
+        <h3>Smart Watch</h3>
+        <p>₹2999</p>
+        <button onclick="addToCart('Smart Watch',2999)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="images/product2.jpeg">
+        <h3>Headphones</h3>
+        <p>₹1999</p>
+        <button onclick="addToCart('Headphones',1999)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="images/product3.jpeg">
+        <h3>Backpack</h3>
+        <p>₹1499</p>
+        <button onclick="addToCart('Backpack',1499)">Add to Cart</button>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 ShopEase</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
